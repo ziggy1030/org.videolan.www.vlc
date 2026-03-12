@@ -2,12 +2,12 @@
 #
 # SPDX-License-Identifier: LGPL-3.0-or-later
 
-version: "3.0.21.12"
+version: "3.0.21.14"
 
 package:
   id: "org.videolan.www.vlc"
   name: "VLC"
-  version: "3.0.21.12"
+  version: "3.0.21.14"
   kind: app
   description: |
     multimedia player and streamer
@@ -39,7 +39,7 @@ package:
     * vlc-plugin-visualization
 
 
-base: org.deepin.base/25.2.2
+base: org.deepin.base/25.2.1
 
 command:
   - "vlc.sh"
